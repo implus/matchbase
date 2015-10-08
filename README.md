@@ -12,11 +12,23 @@ cos | tfidf | bought history + c->(max(a), b) |
 
 
 
---- ex04: offline:
+--- ex04: offline: 4.67%(4135)  
 cos | tfidf | bought history + c->(prob(a)xprob(b)) |
 
---- ex05: offline:
+--- ex05: offline: 4.967%(4135)
 cos | tfidf | bought history - 1 times(max==1, ignore) + c->(prob(a)xprob(b)) |
+
+--- ex06: offline: 
+cos | tfidf | bought history - 1 times(max==1, ignore) + c->(prob(a)xprob(b)) | erase top 5 values
+
+--- ex07: offline:
+cos | tfidf | bought history - 1 + c->(prob(a)xprob(b)) | 
+
+
+
+
+
+
 
 
 
