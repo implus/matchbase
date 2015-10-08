@@ -16,7 +16,7 @@ cos | tfidf | bought history + c->(max(a), b) |
 cos | tfidf | bought history + c->(prob(a)xprob(b)) |
 
 --- ex05: offline:
-cos | tfidf | bought history - 1 times + c->(prob(a)xprob(b)) |
+cos | tfidf | bought history - 1 times(max==1, ignore) + c->(prob(a)xprob(b)) |
 
 
 
