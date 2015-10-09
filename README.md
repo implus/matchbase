@@ -44,6 +44,8 @@ focus on bought history erase
 cos | tfidf | bought history top 100 + c->prob(a)xprob(b) |
 
 
+
+
  ./gao ../data/dim_items.txt ../init/offline_train_item_item.txt ../data/offline_test_items.txt offline_ans.txt
 
 ------------------------------------ belows are no use ------------------------
